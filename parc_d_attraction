@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simplon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="deco">
+    <section1 class="globalcontainer">
+    <h1  class="titre">Simplon parc d'attraction</h1>
+    <section class=cardcontainer>           
+        <a href="http://www.simplon.co">               
+            <div class="card">     
+                <h2 class="titre2">117 rue Victor Hugo - Paris France</h2>
+                    <br>
+                    <br>       
+                <p class="link">23 Septembre 2022</p>
+            </div>
+    </section>
+</body>
+<footer>
+    <a href="https://www.facebook.com/jerome.colin.716">
+    <p class="nom">Jérôme Colin</p>
+</footer>
+</section1>
+</html>
+# Simplon_attractive_card
+
+html {
+	font-family: Vollkorn,serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.globalcontainer{
+    background-size: 960px;
+    background-color: beige;
+    margin: 0,auto;
+}
+
+.titre {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 200px;
+}
+a:link
+{
+    text-decoration: none;
+}
+.titre2{
+    color:black;
+}
+.link{
+    color: red;
+}
+.cardcontainer {
+    background-size: 1000px;
+    padding: 20px;
+    border: solid 4px;
+    border-color: #b0215e;
+    background-image: url(https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+    margin: 30px;
+}
+
+.card{
+    font-size: 50%;
+    background-color: white;
+    padding: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 650px;
+    margin-top: 40px;
+}
+
+.nom{
+    margin-left: 650px;
+}
